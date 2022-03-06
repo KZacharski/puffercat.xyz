@@ -1,0 +1,148 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img.emoji {
+    /* Since we are using SVGs, you have to change the width using CSS */
+    width: 1.2em;
+
+    /* 
+    This is to make the emojis feel like actual emojis to 
+    the user and they won't act like images. This makes the emojis
+    non-reactive to any mouse events such as dragging, 
+    hovering, clicking etc. Makes it feel like its actual text.
+    */
+    pointer-events: none; 
+} 
+
+:root {
+	--day: white;
+	--night: rgb(40, 40, 40);
+}
+
+
+
+@media (prefers-color-scheme: light) {
+	html {
+		background: var(--day);
+        color: black;
+	}
+	
+  a {
+  	color: #000000;
+      text-decoration: underline;
+  }
+
+  
+  .badge-dark {
+    display: none
+}
+
+  
+
+  a:active {
+  	color: #ffffff;
+    background-color: black;
+  }
+
+  a:hover {
+  	color: #ffffff;
+      background-color: black;
+      
+  }
+}
+
+
+@media (prefers-color-scheme: dark) {
+	html {
+		background: var(--night);
+		color: var(--day);
+	}
+  a {
+  	color: #ffffff;
+  	text-decoration: underline;
+      
+  }
+
+  a:active {
+  	color: #000000;
+      background-color: #ffffff;
+  }
+
+  .badge {
+    display: none
+}
+
+  a:hover {
+  	color: #000000;
+    background-color: #ffffff;
+  }
+
+
+}
+
+body {
+	font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
+	line-height: 1.5;
+	margin: 1em auto;
+	padding: 1em;
+	max-width: 50em
+}
+
+.headline {
+	text-decoration: underline;
+}
+
+nav {
+	display: flex;
+}
+
+nav img {
+	padding-top: .3rem;
+	padding-bottom: .3rem;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	padding: .5rem 1rem;
+	opacity: .8;
+}
+
+.socials {
+	margin-left: auto; 
+	margin-right: 0;
+}
+
+a {
+    transition: 0.3s;
+}
+
+nav a:active {
+    color: #0E9479;
+    background-color: transparent;
+}
+
+ nav a:hover {
+    color: #0E9479;
+    background-color: transparent;
+    
+}
+
+
+
+i span {
+	position: absolute !important;
+	width: 1px !important;
+	height: 1px !important;
+	padding: 0 !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	clip: rect(0,0,0,0) !important;
+	white-space: nowrap !important;
+	border: 0 !important;
+}
+

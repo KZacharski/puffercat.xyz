@@ -1,0 +1,16 @@
+{
+  "name": "puffercat.xyz",
+  "packageManager": "yarn@3.2.0",
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "parcel": "^2.3.2",
+    "postcss": "^8.4.7",
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "emoji-assets": "^6.6.0",
+    "emoji-toolkit": "^6.6.0",
+    "fontawesome-free": "^1.0.4",
+    "jquery": "^3.6.0"
+  }
+}
