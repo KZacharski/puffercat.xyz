@@ -2,25 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-img.emoji {
-    /* Since we are using SVGs, you have to change the width using CSS */
-    width: 1.2em;
 
-    /* 
-    This is to make the emojis feel like actual emojis to 
-    the user and they won't act like images. This makes the emojis
-    non-reactive to any mouse events such as dragging, 
-    hovering, clicking etc. Makes it feel like its actual text.
-    */
-    pointer-events: none; 
-} 
 
 :root {
 	--day: white;
 	--night: rgb(40, 40, 40);
 }
 
+.badge-dark {
+    display: none
+}
 
+.badge {
+	display: inline
+}
 
 @media (prefers-color-scheme: light) {
 	html {
@@ -34,9 +29,7 @@ img.emoji {
   }
 
   
-  .badge-dark {
-    display: none
-}
+  
 
   
 
@@ -73,6 +66,10 @@ img.emoji {
     display: none
 }
 
+.badge-dark {
+	display: inline
+}
+
   a:hover {
   	color: #000000;
     background-color: #ffffff;
@@ -93,14 +90,44 @@ body {
 	text-decoration: underline;
 }
 
+
+
 nav {
 	display: flex;
 }
 
+@media screen and (max-width: 600px)  {
+	.socials { 
+		display: none; }
+	.socials-mobile-parent {
+		display: flex; }
+	
+	.socials-mobile {
+		display: flex;
+	}
+}
+
+@media screen and (min-width: 600px)  {
+	.socials { 
+		display: flex; }
+	.socials-mobile-parent {
+		display: none; }
+	
+	.socials-mobile {
+		display: none;
+	}
+}
+
+
+
+
+
 nav img {
 	padding-top: .3rem;
 	padding-bottom: .3rem;
+	display: block;
 }
+
 
 nav ul {
 	list-style: none;
@@ -132,6 +159,11 @@ nav a:active {
     
 }
 
+.active-nav {
+    color: #0E9479;
+}
+
+
 
 
 i span {
@@ -145,4 +177,5 @@ i span {
 	white-space: nowrap !important;
 	border: 0 !important;
 }
+
 
