@@ -34,10 +34,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["autoprefixer", "virtual:77f3063b3bd38d9b8c2662bb8d49494052621d3cb9f08cd6ec1826aa87723fd9c60935f69783c353ed06414df364b26e37381828b7cc59d5c2782a34e5fbdc15#npm:10.4.2"],\
-            ["emoji-assets", "npm:6.6.0"],\
-            ["emoji-toolkit", "npm:6.6.0"],\
             ["fontawesome-free", "npm:1.0.4"],\
-            ["jquery", "npm:3.6.0"],\
             ["parcel", "npm:2.3.2"],\
             ["postcss", "npm:8.4.7"],\
             ["tailwindcss", "virtual:77f3063b3bd38d9b8c2662bb8d49494052621d3cb9f08cd6ec1826aa87723fd9c60935f69783c353ed06414df364b26e37381828b7cc59d5c2782a34e5fbdc15#npm:3.0.23"]\
@@ -1858,29 +1855,11 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
-      ["emoji-assets", [\
-        ["npm:6.6.0", {\
-          "packageLocation": "./.yarn/cache/emoji-assets-npm-6.6.0-f7170fa2e9-14d3877551.zip/node_modules/emoji-assets/",\
-          "packageDependencies": [\
-            ["emoji-assets", "npm:6.6.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
       ["emoji-regex", [\
         ["npm:8.0.0", {\
           "packageLocation": "./.yarn/cache/emoji-regex-npm-8.0.0-213764015c-d4c5c39d5a.zip/node_modules/emoji-regex/",\
           "packageDependencies": [\
             ["emoji-regex", "npm:8.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["emoji-toolkit", [\
-        ["npm:6.6.0", {\
-          "packageLocation": "./.yarn/cache/emoji-toolkit-npm-6.6.0-148692c3b5-8f7a721662.zip/node_modules/emoji-toolkit/",\
-          "packageDependencies": [\
-            ["emoji-toolkit", "npm:6.6.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -2435,15 +2414,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/isexe-npm-2.0.0-b58870bd2e-26bf6c5480.zip/node_modules/isexe/",\
           "packageDependencies": [\
             ["isexe", "npm:2.0.0"]\
-          ],\
-          "linkType": "HARD"\
-        }]\
-      ]],\
-      ["jquery", [\
-        ["npm:3.6.0", {\
-          "packageLocation": "./.yarn/cache/jquery-npm-3.6.0-ca7872bdbb-8fd5fef4aa.zip/node_modules/jquery/",\
-          "packageDependencies": [\
-            ["jquery", "npm:3.6.0"]\
           ],\
           "linkType": "HARD"\
         }]\
@@ -3833,10 +3803,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [\
             ["puffercat.xyz", "workspace:."],\
             ["autoprefixer", "virtual:77f3063b3bd38d9b8c2662bb8d49494052621d3cb9f08cd6ec1826aa87723fd9c60935f69783c353ed06414df364b26e37381828b7cc59d5c2782a34e5fbdc15#npm:10.4.2"],\
-            ["emoji-assets", "npm:6.6.0"],\
-            ["emoji-toolkit", "npm:6.6.0"],\
             ["fontawesome-free", "npm:1.0.4"],\
-            ["jquery", "npm:3.6.0"],\
             ["parcel", "npm:2.3.2"],\
             ["postcss", "npm:8.4.7"],\
             ["tailwindcss", "virtual:77f3063b3bd38d9b8c2662bb8d49494052621d3cb9f08cd6ec1826aa87723fd9c60935f69783c353ed06414df364b26e37381828b7cc59d5c2782a34e5fbdc15#npm:3.0.23"]\

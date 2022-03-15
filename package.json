@@ -8,9 +8,6 @@
     "tailwindcss": "^3.0.23"
   },
   "dependencies": {
-    "emoji-assets": "^6.6.0",
-    "emoji-toolkit": "^6.6.0",
-    "fontawesome-free": "^1.0.4",
-    "jquery": "^3.6.0"
+    "fontawesome-free": "^1.0.4"
   }
 }
