@@ -17,6 +17,14 @@
 	display: inline
 }
 
+.telegramdark {
+    display: none
+}
+
+.telegramlight {
+	display: inline
+}
+
 @media (prefers-color-scheme: light) {
 	html {
 		background: var(--day);
@@ -67,6 +75,14 @@
 }
 
 .badge-dark {
+	display: inline
+}
+
+.telegramlight {
+    display: none
+}
+
+.telegramdark {
 	display: inline
 }
 
