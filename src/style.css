@@ -100,7 +100,7 @@ body {
 	line-height: 1.5;
 	margin: 1em auto;
 	padding: 1em;
-	max-width: 50em
+	max-width: 75em
 	
 }
 
@@ -123,6 +123,15 @@ nav {
 	.socials-mobile {
 		display: flex;
 	}
+
+	.navdesktop {
+		display: none;
+	}
+
+	.navmobile {
+		display: flex;
+	}
+	
 }
 
 @media screen and (min-width: 600px)  {
@@ -132,6 +141,13 @@ nav {
 		display: none; }
 	
 	.socials-mobile {
+		display: none;
+	}
+	.navdesktop {
+		display: flex;
+	}
+
+	.navmobile {
 		display: none;
 	}
 }
