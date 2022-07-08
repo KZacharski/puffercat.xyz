@@ -4,7 +4,9 @@ module.exports = {
 ],
   theme: {
     extend: {
-
+      colors: {
+        pfrcatg: '#0E9479',
+      },
     },
   },
   plugins: [],
