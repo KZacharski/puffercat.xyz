@@ -212,4 +212,8 @@ i span {
 	border: 0 !important;
 }
 
+.design-card:hover {
+	color: transparent;
+	background-color: transparent;
+}
 
